@@ -23,7 +23,6 @@ nav span {
 header {
   display: flex;
   align-items: center;
-
   background-color: black;
   width: 100%;
   padding: 0px 10px;
@@ -45,7 +44,6 @@ header img {
   justify-content: center;
   z-index: 5;
   position: relative;
-  top: 10px;
 }
 
 
@@ -55,15 +53,13 @@ header img {
   height: 700px;
   width: 1200px;
   background-image: url("../images/mission-background.jpg");
-  background-position: center;
+  background-position: cover;
 }
 
 .mission .text-content {
-  width: 1200px;
+  width: 100%;
   background-color: black;
-  text-align: center;
-  justify-content: center;
-  margin-top: 250px;
+  margin-top: 300px;
   display: flex;
   flex-wrap: wrap;
   display: inline-block;
@@ -79,9 +75,17 @@ header img {
   height: 500px;
   width: 1200px;
   display: flex;
-  background-position: center;
   background-size: cover;
-  
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.addresses {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 15px 40px;
 }
 
 .downtown {
@@ -103,6 +107,10 @@ header img {
   width: 300px;
   background-color: black;
   opacity: 1;
+}
+
+.addresses p {
+  padding: 12px;
 }
 
 /*Footer*/
