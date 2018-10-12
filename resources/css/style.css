@@ -14,8 +14,7 @@ nav span {
   display: inline-block;
   text-decoration: underline;
   padding: 10px;
-  align-items: flex-end;
-}
+  }
 
 
 /*Header*/
@@ -24,7 +23,7 @@ header {
   display: flex;
   align-items: center;
   background-color: black;
-  width: 100%;
+  width: 100%
   padding: 0px 10px;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -33,6 +32,11 @@ header {
 
 header img {
   height: 50px;
+  padding: 10px;
+}
+
+.navigation {
+  justify-content: flex-end;
 }
 
 
@@ -43,7 +47,7 @@ header img {
   flex-direction: column;
   justify-content: center;
   z-index: 5;
-  position: relative;
+  align-items: center;
 }
 
 
@@ -67,6 +71,34 @@ header img {
 
 /*Menu*/
 
+.menu {
+  height: 1000px;
+  width: 1000px;
+  display: inline-block;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  }
+
+.menu img {
+  height: 200px;
+  width: 300px;
+}
+
+.menu .text-content {
+  text-align: center;
+}
+
+.menu .image-content {
+  display: inline-block;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 10px;
+}
+
+
 
 /*Locations*/
 
@@ -75,9 +107,11 @@ header img {
   height: 500px;
   width: 1200px;
   display: flex;
-  background-size: cover;
+  background-position: center;
   flex-wrap: wrap;
   display: inline-block;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .addresses {
@@ -115,11 +149,14 @@ header img {
 
 /*Footer*/
 
+
 .contact {
   height: 200px;
+  width: 100%;
+  align-items: center;
 }
 
-.copyright {
+.copyright h5 {
   text-align: left;
-  padding: 0px 20px;
+  padding: 20px;
 }
