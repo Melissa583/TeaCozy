@@ -13,9 +13,9 @@ body {
 nav span {
   display: inline-block;
   text-decoration: underline;
+  padding: 10px;
+  align-items: flex-end;
 }
-
-/*Universal Styles-Menu*/
 
 
 /*Header*/
@@ -23,19 +23,87 @@ nav span {
 header {
   display: flex;
   align-items: center;
-  position: fixed;
+
   background-color: black;
   width: 100%;
   padding: 0px 10px;
   height: 69px;
   border-bottom: 1px solid seashell;
-  z-index: 1;
+  z-index: 10;
 }
 
 header img {
   height: 50px;
 }
 
+
+/*Main Content Container*/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 5;
+  position: relative;
+  top: 10px;
+}
+
+
+/*Our Mission*/
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/mission-background.jpg");
+  background-position: center;
+}
+
+.mission .text-content {
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  margin-top: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+/*Menu*/
+
+
+/*Locations*/
+
+.locations {
+  background-image: url("../images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.downtown {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.east-bayside {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.oakdale {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
 
 /*Footer*/
 
