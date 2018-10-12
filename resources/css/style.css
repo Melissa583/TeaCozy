@@ -1,1 +1,49 @@
 /*Universal Styles*/
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+/*Universal Styles-Menu*/
+
+
+/*Header*/
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  padding: 0px 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+header img {
+  height: 50px;
+}
+
+
+/*Footer*/
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding: 0px 20px;
+}
